@@ -11,59 +11,63 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="609.0" prefWidth="699.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuarantineCentersController">
+<AnchorPane fx:id="root" prefHeight="639.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuarantineCentersController">
    <children>
-      <AnchorPane layoutY="-1.0" prefHeight="609.0" prefWidth="704.0">
-         <children>
-            <Label layoutX="220.0" layoutY="14.0" text="Manage Quarantine Centers">
-               <font>
-                  <Font name="System Bold" size="22.0" />
-               </font>
-            </Label>
-            <Button layoutX="14.0" layoutY="1.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="69.0" prefWidth="125.0" text="Home" textFill="#2439aa">
-               <graphic>
-                  <ImageView fx:id="home" fitHeight="67.0" fitWidth="66.0">
-                     <image>
-                        <Image url="@../assets/imgbin-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-white-house-illustration-3uXXsAG569C90TEjGWE75FFmx.jpg" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <font>
-                  <Font name="System Bold" size="12.0" />
-               </font>
-            </Button>
-            <TextField fx:id="txtSearch" layoutX="12.0" layoutY="121.0" prefHeight="32.0" prefWidth="214.0" promptText="Search Center" />
-            <ListView fx:id="lstCenters" layoutX="12.0" layoutY="153.0" prefHeight="378.0" prefWidth="214.0" />
-            <Button layoutX="12.0" layoutY="531.0" mnemonicParsing="false" onAction="#btnCenter_OnAction" prefHeight="32.0" prefWidth="214.0" text="+ New Center" />
-            <TitledPane animated="false" collapsible="false" layoutX="238.0" layoutY="118.0" prefHeight="426.0" prefWidth="439.0" text="Quarantine Center Information">
-               <content>
-                  <AnchorPane prefHeight="390.0" prefWidth="444.0">
-                     <children>
-                        <TextField layoutX="14.0" layoutY="20.0" prefHeight="32.0" prefWidth="89.0" promptText="ID" />
-                        <TextField layoutX="14.0" layoutY="66.0" prefHeight="32.0" prefWidth="410.0" promptText="Quarantine Center Name" />
-                        <ComboBox layoutX="14.0" layoutY="156.0" prefHeight="32.0" prefWidth="409.0" promptText="District" />
-                        <TextField layoutX="15.0" layoutY="198.0" prefHeight="32.0" prefWidth="410.0" promptText="Head" />
-                        <TextField layoutX="14.0" layoutY="240.0" prefHeight="32.0" prefWidth="410.0" promptText="Head Contact No" />
-                        <TextField layoutX="14.0" layoutY="283.0" prefHeight="32.0" prefWidth="410.0" promptText="Center Contact No 1" />
-                        <TextField layoutX="14.0" layoutY="107.0" prefHeight="32.0" prefWidth="410.0" promptText="City" />
-                        <TextField layoutX="14.0" layoutY="326.0" prefHeight="32.0" prefWidth="410.0" promptText="Center Contact No 2" />
-                        <TextField layoutX="15.0" layoutY="368.0" prefHeight="32.0" prefWidth="410.0" promptText="Capacity" />
-                        <Button defaultButton="true" layoutX="306.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
-                           <font>
-                              <Font size="14.0" />
-                           </font>
-                        </Button>
-                        <Button cancelButton="true" layoutX="366.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" text="Detele" textFill="#272626">
-                           <font>
-                              <Font size="13.0" />
-                           </font>
-                        </Button>
-                     </children>
-                  </AnchorPane>
-               </content>
-            </TitledPane>
-         </children>
-      </AnchorPane>
+      <Label layoutX="220.0" layoutY="14.0" text="Manage Quarantine Centers">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="50.0" prefWidth="102.0" text="Home" textFill="#2439aa">
+         <graphic>
+            <ImageView fx:id="home" fitHeight="49.0" fitWidth="49.0">
+               <image>
+                  <Image url="@../assets/imgbin-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-white-house-illustration-3uXXsAG569C90TEjGWE75FFmx.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtSearch" layoutX="14.0" layoutY="93.0" prefHeight="32.0" prefWidth="214.0" promptText="Search Center" />
+      <ListView fx:id="lstCenters" layoutX="14.0" layoutY="124.0" prefHeight="461.0" prefWidth="214.0" />
+      <Button fx:id="add_center" layoutX="14.0" layoutY="585.0" mnemonicParsing="false" onAction="#btnNewCenter_OnAction" prefHeight="32.0" prefWidth="214.0" text="+ New Center" />
+      <TitledPane animated="false" collapsible="false" layoutX="238.0" layoutY="91.0" prefHeight="516.0" prefWidth="440.0" text="Quarantine Center Information">
+         <content>
+            <AnchorPane prefHeight="462.0" prefWidth="442.0">
+               <children>
+                  <TextField fx:id="quarantine_center_id" layoutX="14.0" layoutY="10.0" prefHeight="24.0" prefWidth="82.0" promptText="ID" />
+                  <TextField fx:id="center_name" layoutX="14.0" layoutY="44.0" prefHeight="30.0" prefWidth="406.0" promptText="Quarantine Center Name" />
+                  <ComboBox fx:id="district" layoutX="14.0" layoutY="152.0" prefHeight="30.0" prefWidth="406.0" promptText="District" />
+                  <TextField fx:id="head_name" layoutX="15.0" layoutY="207.0" prefHeight="30.0" prefWidth="406.0" promptText="Head" />
+                  <TextField fx:id="head_contact_no" layoutX="15.0" layoutY="262.0" prefHeight="30.0" prefWidth="406.0" promptText="Head Contact No" />
+                  <TextField fx:id="center_contact_no_1" layoutX="15.0" layoutY="317.0" prefHeight="30.0" prefWidth="406.0" promptText="Center Contact No 1" />
+                  <TextField fx:id="city" layoutX="15.0" layoutY="98.0" prefHeight="30.0" prefWidth="406.0" promptText="City" />
+                  <TextField fx:id="center_contact_no_2" layoutX="15.0" layoutY="372.0" prefHeight="30.0" prefWidth="406.0" promptText="Center Contact No 2" />
+                  <TextField fx:id="capacity" layoutX="15.0" layoutY="428.0" prefHeight="30.0" prefWidth="406.0" promptText="Capacity" />
+                  <Button fx:id="Save" defaultButton="true" layoutX="317.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Delete" cancelButton="true" layoutX="371.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" text="Detele" textFill="#272626">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lbl_id" layoutX="117.0" layoutY="10.0" prefHeight="22.0" prefWidth="84.0" />
+                  <Label fx:id="lbl_center_name" layoutX="15.0" layoutY="74.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_city" layoutX="15.0" layoutY="127.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_capacity" layoutX="16.0" layoutY="458.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_center_contact_no_2" layoutX="16.0" layoutY="403.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_center_contact_no_1" layoutX="16.0" layoutY="347.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_head_contact" layoutX="16.0" layoutY="292.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_head_name" layoutX="16.0" layoutY="237.0" prefHeight="24.0" prefWidth="404.0" />
+                  <Label fx:id="lbl_district" layoutX="15.0" layoutY="182.0" prefHeight="24.0" prefWidth="404.0" />
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
    </children>
 </AnchorPane>

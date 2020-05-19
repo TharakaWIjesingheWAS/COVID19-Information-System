@@ -11,53 +11,67 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="677.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageHospitalsController">
+<AnchorPane fx:id="root" prefHeight="768.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageHospitalsController">
    <children>
-      <Label layoutX="220.0" layoutY="14.0" text="Manage Hospitals">
+      <Label layoutX="243.0" layoutY="12.0" text="Manage Hospitals">
          <font>
-            <Font name="System Bold" size="22.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="55.0" prefWidth="136.0" text="Home" textFill="#2439aa">
+      <Button layoutX="12.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="50.0" prefWidth="102.0" text="Home" textFill="#2439aa">
          <graphic>
-            <ImageView fx:id="home" fitHeight="67.0" fitWidth="66.0">
+            <ImageView fx:id="home" fitHeight="49.0" fitWidth="49.0">
                <image>
                   <Image url="@../assets/imgbin-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-white-house-illustration-3uXXsAG569C90TEjGWE75FFmx.jpg" />
                </image>
             </ImageView>
          </graphic>
          <font>
-            <Font name="System Bold" size="14.0" />
+            <Font name="System Bold" size="11.0" />
          </font>
       </Button>
-      <TextField fx:id="txtSearch" layoutX="12.0" layoutY="114.0" prefHeight="32.0" prefWidth="214.0" promptText="Search Hospital" />
-      <ListView fx:id="lstHospitals" layoutX="12.0" layoutY="146.0" prefHeight="464.0" prefWidth="214.0" />
-      <Button layoutX="12.0" layoutY="609.0" mnemonicParsing="false" onAction="#btnNewHospital_OnAction" prefHeight="32.0" prefWidth="214.0" text="+ New Hospital" />
-      <TitledPane animated="false" collapsible="false" layoutX="238.0" layoutY="112.0" prefHeight="426.0" prefWidth="439.0" text="Hospital Information">
+      <TextField fx:id="txtSearch" layoutX="12.0" layoutY="76.0" prefHeight="32.0" prefWidth="214.0" promptText="Search Hospital" />
+      <ListView fx:id="lstHospitals" layoutX="12.0" layoutY="108.0" prefHeight="591.0" prefWidth="214.0" />
+      <Button fx:id="add_new_hospital" layoutX="12.0" layoutY="697.0" mnemonicParsing="false" onAction="#btnNewHospital_OnAction" prefHeight="32.0" prefWidth="214.0" text="+ New Hospital" />
+      <TitledPane animated="false" collapsible="false" layoutX="236.0" layoutY="77.0" prefHeight="426.0" prefWidth="439.0" text="Hospital Information">
          <content>
             <AnchorPane prefHeight="390.0" prefWidth="444.0">
                <children>
-                  <TextField fx:id="hospital_id" layoutX="14.0" layoutY="20.0" prefHeight="32.0" prefWidth="89.0" promptText="ID" />
-                  <TextField fx:id="hospital_name" layoutX="14.0" layoutY="66.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Name" />
-                  <ComboBox fx:id="district" layoutX="14.0" layoutY="156.0" prefHeight="32.0" prefWidth="409.0" promptText="District" />
-                  <TextField fx:id="capacity" layoutX="15.0" layoutY="198.0" prefHeight="32.0" prefWidth="410.0" promptText="Capacity" />
-                  <TextField fx:id="director_name" layoutX="14.0" layoutY="240.0" prefHeight="32.0" prefWidth="410.0" promptText="Director" />
-                  <TextField fx:id="director_contact_no" layoutX="14.0" layoutY="282.0" prefHeight="32.0" prefWidth="410.0" promptText="Director Contact Number" />
-                  <TextField fx:id="hospital_contact_no_1" layoutX="14.0" layoutY="324.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Contact No 1" />
-                  <TextField fx:id="hospital_city" layoutX="14.0" layoutY="107.0" prefHeight="32.0" prefWidth="410.0" promptText="City" />
-                  <TextField fx:id="hospital_contact_no_2" layoutX="14.0" layoutY="366.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Contact No 2" />
-                  <TextField fx:id="hospital_fax_no" layoutX="15.0" layoutY="408.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Fax No" />
-                  <TextField fx:id="hospital_email" layoutX="15.0" layoutY="450.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Email" />
-                  <Button defaultButton="true" layoutX="306.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
+                  <TextField fx:id="hospital_id" layoutX="14.0" layoutY="11.0" prefHeight="21.0" prefWidth="85.0" promptText="ID" />
+                  <TextField fx:id="hospital_name" layoutX="14.0" layoutY="45.0" prefHeight="32.0" prefWidth="408.0" promptText="Hospital Name" />
+                  <ComboBox fx:id="district" layoutX="14.0" layoutY="157.0" prefHeight="32.0" prefWidth="408.0" promptText="District" />
+                  <TextField fx:id="capacity" layoutX="15.0" layoutY="214.0" prefHeight="32.0" prefWidth="408.0" promptText="Capacity" />
+                  <TextField fx:id="director_name" layoutX="15.0" layoutY="270.0" prefHeight="32.0" prefWidth="408.0" promptText="Director" />
+                  <TextField fx:id="director_contact_no" layoutX="15.0" layoutY="326.0" prefHeight="32.0" prefWidth="408.0" promptText="Director Contact Number" />
+                  <TextField fx:id="hospital_contact_no_1" layoutX="14.0" layoutY="382.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Contact No 1" />
+                  <TextField fx:id="hospital_city" layoutX="14.0" layoutY="100.0" prefHeight="32.0" prefWidth="408.0" promptText="City" />
+                  <TextField fx:id="hospital_contact_no_2" layoutX="14.0" layoutY="437.0" prefHeight="32.0" prefWidth="408.0" promptText="Hospital Contact No 2" />
+                  <TextField fx:id="hospital_fax_no" layoutX="14.0" layoutY="493.0" prefHeight="32.0" prefWidth="408.0" promptText="Hospital Fax No" />
+                  <TextField fx:id="hospital_email" layoutX="15.0" layoutY="550.0" prefHeight="32.0" prefWidth="410.0" promptText="Hospital Email">
                      <font>
-                        <Font size="14.0" />
+                        <Font size="11.0" />
+                     </font></TextField>
+                  <Button fx:id="save" defaultButton="true" layoutX="306.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
+                     <font>
+                        <Font size="11.0" />
                      </font>
                   </Button>
-                  <Button cancelButton="true" layoutX="366.0" layoutY="24.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" text="Detele" textFill="#272626">
+                  <Button fx:id="delete" cancelButton="true" layoutX="366.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnDelete_OnAction" prefWidth="56.0" text="Detele" textFill="#272626">
                      <font>
-                        <Font size="13.0" />
+                        <Font size="11.0" />
                      </font>
                   </Button>
+                  <Label fx:id="lbl_id" layoutX="103.0" layoutY="11.0" prefHeight="24.0" prefWidth="102.0" />
+                  <Label fx:id="lbl_name" layoutX="15.0" layoutY="76.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_hospital_mail" layoutX="15.0" layoutY="582.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_hospital_no_2" layoutX="14.0" layoutY="469.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_hospital_fax" layoutX="14.0" layoutY="525.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_hospital_no_1" layoutX="15.0" layoutY="413.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_director_contact_no" layoutX="14.0" layoutY="358.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_director_name" layoutX="14.0" layoutY="301.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_capacity" layoutX="16.0" layoutY="246.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_district" layoutX="14.0" layoutY="189.0" prefHeight="24.0" prefWidth="408.0" />
+                  <Label fx:id="lbl_city" layoutX="14.0" layoutY="132.0" prefHeight="24.0" prefWidth="408.0" />
                </children>
             </AnchorPane>
          </content>

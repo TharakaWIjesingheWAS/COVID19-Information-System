@@ -1,31 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65571c04-993b-43ee-915f-2cb8d307d418" name="Default Changelist" comment="" />
+    <list default="true" id="65571c04-993b-43ee-915f-2cb8d307d418" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tharaka.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/DashBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/DashBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/QuarantineCentersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/QuarantineCentersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/dbconnection/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/dbconnection/DbConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/util/HospitalTM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/GlobalCOVID19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/GlobalCOVID19.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/ManageHospitals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/ManageHospitals.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/ManageUsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/ManageUsers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/QuarantineCenters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/QuarantineCenters.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GlobalCOVID19Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GlobalCOVID19Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ManageHospitalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageHospitalsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ManageUsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageUsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/QuarantineCentersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/QuarantineCentersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dbconnection/DbConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/HospitalTM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/HospitalTM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GlobalCOVID19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GlobalCOVID19.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ManageHospitals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManageHospitals.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ManageUsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManageUsers.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/QuarantineCenters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/QuarantineCenters.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Covid19@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Covid19@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Covid19@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="covid19: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Covid19@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="covid19: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="quarantine_center: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bllYbSEeSFyf6KBgeSJMa3lhgA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar!/" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,8 +116,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dbconnection" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tharaka\IdeaProjects\Covid19Information\src\Assets" />
     </key>
@@ -45,6 +133,19 @@
     <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppInitializer" />
       <module name="Covid19" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitializer" />
+      <module name="Covid19" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -62,23 +163,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalCOVID19Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controller.GlobalCOVID19Controller" />
-      <module name="Covid19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppInitializer" />
-        <item itemvalue="Application.GlobalCOVID19Controller" />
+        <item itemvalue="Application.AppInitializer" />
         <item itemvalue="Application.DashBoardController" />
       </list>
     </recent_temporary>
@@ -95,7 +183,20 @@
       <updated>1589214609265</updated>
       <workItem from="1589214613830" duration="17539000" />
       <workItem from="1589448820528" duration="5360000" />
-      <workItem from="1589523893750" duration="11728000" />
+      <workItem from="1589523893750" duration="17711000" />
+      <workItem from="1589599968795" duration="4123000" />
+      <workItem from="1589604170477" duration="13863000" />
+      <workItem from="1589645063690" duration="5000" />
+      <workItem from="1589702897254" duration="11776000" />
+      <workItem from="1589746552400" duration="5510000" />
+      <workItem from="1589780324044" duration="41986000" />
+      <workItem from="1589874898702" duration="3194000" />
+      <workItem from="1589878569734" duration="6159000" />
+      <workItem from="1589886620689" duration="271000" />
+      <workItem from="1589886902148" duration="21000" />
+      <workItem from="1589887011074" duration="7000" />
+      <workItem from="1589887170051" duration="40000" />
+      <workItem from="1589905231270" duration="10039000" />
     </task>
     <servers />
   </component>
@@ -103,57 +204,122 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="575" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1589539627132">
+    <state x="362" y="73" key="#Inspections" timestamp="1589602782031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="575" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589539627132" />
-    <state x="475" y="155" key="FileChooserDialogImpl" timestamp="1589530418223">
+    <state x="362" y="73" key="#Inspections/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589602782031" />
+    <state x="668" y="352" key="#Notifications" timestamp="1589886911621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="668" y="352" key="#Notifications/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589886911621" />
+    <state x="362" y="73" key="#SQL_Dialects" timestamp="1589644881706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="73" key="#SQL_Dialects/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589644881706" />
+    <state x="354" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589708892393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="354" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589708892393" />
+    <state x="575" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1589883042724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589883042724" />
+    <state x="575" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589819579155" />
+    <state x="628" y="267" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589708885825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="628" y="267" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589708885825" />
+    <state x="606" y="303" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589905040956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="606" y="303" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589905040956" />
+    <state x="467" y="98" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1589602756463">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="98" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589602756463" />
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589840781145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1589840781145" />
+    <state x="384" y="9" key="CommitChangelistDialog2" timestamp="1589604437194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="384" y="9" key="CommitChangelistDialog2/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589604437194" />
+    <state x="475" y="155" key="FileChooserDialogImpl" timestamp="1589643141692">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="155" key="FileChooserDialogImpl/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589643141692" />
     <state x="475" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589530418223" />
-    <state width="1493" height="533" key="GridCell.Tab.0.bottom" timestamp="1589539698538">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1589916029331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="533" key="GridCell.Tab.0.bottom/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589539698538" />
-    <state width="1493" height="533" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589535099047" />
-    <state width="1493" height="533" key="GridCell.Tab.0.center" timestamp="1589539698538">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="93" key="GridCell.Tab.0.bottom/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
+    <state width="1493" height="6" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589877423116" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1589916029331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="533" key="GridCell.Tab.0.center/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589539698538" />
-    <state width="1493" height="533" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589535099047" />
-    <state width="1493" height="533" key="GridCell.Tab.0.left" timestamp="1589539698538">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="93" key="GridCell.Tab.0.center/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
+    <state width="1493" height="6" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589877423115" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1589916029331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="533" key="GridCell.Tab.0.left/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589539698538" />
-    <state width="1493" height="533" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589535099047" />
-    <state width="1493" height="533" key="GridCell.Tab.0.right" timestamp="1589539698538">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="93" key="GridCell.Tab.0.left/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995261" />
+    <state width="1493" height="6" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589877423114" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1589916029331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="533" key="GridCell.Tab.0.right/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589539698538" />
-    <state width="1493" height="533" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589535099047" />
-    <state x="250" y="0" key="SettingsEditor" timestamp="1589530485984">
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="93" key="GridCell.Tab.0.right/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
+    <state width="1493" height="6" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589877423116" />
+    <state x="250" y="0" key="SettingsEditor" timestamp="1589886919778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="250" y="0" key="SettingsEditor/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589886919778" />
     <state x="250" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589530485984" />
-    <state x="467" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589523903706">
+    <state x="606" y="304" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1589640608955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589523903706" />
-    <state x="0" y="0" width="130" height="35" maximized="true" key="dock-window-1" timestamp="1589537585714">
+    <state x="606" y="304" width="324" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589640608955" />
+    <state x="479" y="56" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1589749458140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" width="130" height="35" maximized="true" key="dock-window-1/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589537585714" />
+    <state x="479" y="56" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589749458140" />
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589916055675">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916055675" />
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589780327453" />
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589874920917" />
+    <state x="541" y="117" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589753012000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="541" y="117" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589753012000" />
+    <state x="0" y="88" width="1505" height="695" maximized="true" key="dock-window-1" timestamp="1589887203991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="88" width="1505" height="695" maximized="true" key="dock-window-1/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589887203991" />
+    <state x="669" y="34" width="879" height="561" key="dock-window-1/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589793830401" />
+    <state x="663" y="34" width="879" height="561" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1589818006304" />
     <state x="203" y="35" key="new project wizard" timestamp="1589361042440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="203" y="35" key="new project wizard/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589361042440" />
-    <state x="477" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1589377734107">
+    <state x="477" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1589829523891">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589377734107" />
+    <state x="477" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1589829523891" />
     <state x="840" y="408" key="save.file.as.template.dialog" timestamp="1589375035429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="840" y="408" key="save.file.as.template.dialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589375035429" />
+    <state x="432" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1589831602234">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589716021791" />
+    <state x="432" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589831602234" />
   </component>
 </project>

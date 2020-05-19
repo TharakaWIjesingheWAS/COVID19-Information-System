@@ -1,4 +1,4 @@
-package util;
+package Model;
 
 public class HospitalTM {
     private String hospital_id;
@@ -12,10 +12,6 @@ public class HospitalTM {
     private String hospital_contact_no_2;
     private String hospital_fax_no;
     private String hospital_email;
-
-    public HospitalTM(){
-
-    }
 
     public HospitalTM(String hospital_id,String hospital_name, String hospital_city,String district,String capacity,String director_name,String director_contact_no,String hospital_contact_no_1,String hospital_contact_no_2,String hospital_fax_no,String hospital_email){
         this.hospital_id = hospital_id;

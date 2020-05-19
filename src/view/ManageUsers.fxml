@@ -13,54 +13,79 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="639.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageUsersController">
+<AnchorPane fx:id="root" prefHeight="741.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageUsersController">
    <children>
       <Label layoutX="240.0" layoutY="11.0" text="Manage Users">
          <font>
-            <Font name="System Bold" size="22.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button layoutX="11.0" layoutY="-1.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="69.0" prefWidth="125.0" text="Home" textFill="#2439aa">
+      <Button layoutX="10.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="50.0" prefWidth="102.0" text="Home" textFill="#2439aa">
          <graphic>
-            <ImageView fx:id="home" fitHeight="67.0" fitWidth="66.0">
+            <ImageView fx:id="home1" fitHeight="49.0" fitWidth="49.0">
                <image>
                   <Image url="@../assets/imgbin-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-white-house-illustration-3uXXsAG569C90TEjGWE75FFmx.jpg" />
                </image>
             </ImageView>
          </graphic>
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="System Bold" size="11.0" />
          </font>
       </Button>
-      <Button defaultButton="true" layoutX="485.0" layoutY="11.0" mnemonicParsing="false" onAction="#btnNewUser_OnAction" text="New User +">
+      <Button fx:id="add_new_user" defaultButton="true" layoutX="489.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnNewUser_OnAction" text="New User +">
          <font>
-            <Font name="System Bold" size="15.0" />
+            <Font name="System Bold" size="11.0" />
          </font>
       </Button>
-      <TextField fx:id="firstname" layoutX="20.0" layoutY="92.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the name" />
-      <TextField fx:id="contact_no" layoutX="21.0" layoutY="129.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the contact number" />
-      <TextField fx:id="email" layoutX="22.0" layoutY="166.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the e-mail" />
-      <TextField fx:id="username" layoutX="23.0" layoutY="203.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the username" />
-      <PasswordField fx:id="txtPasswordHide" layoutX="24.0" layoutY="241.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the password" />
-      <ComboBox fx:id="cmbUserRole" layoutX="25.0" layoutY="280.0" prefHeight="28.0" prefWidth="562.0" promptText="Select User Role" />
-      <ComboBox fx:id="cmbUserLocation" layoutX="26.0" layoutY="318.0" prefHeight="28.0" prefWidth="562.0" />
-      <Pane layoutX="26.0" layoutY="357.0" prefHeight="240.0" prefWidth="562.0">
+      <TextField fx:id="first_name" layoutX="20.0" layoutY="105.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the name" />
+      <TextField fx:id="contact_no" layoutX="21.0" layoutY="159.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the contact number" />
+      <TextField fx:id="email" layoutX="22.0" layoutY="212.0" prefHeight="27.0" prefWidth="562.0" promptText="Enter the e-mail" />
+      <TextField fx:id="user_name" layoutX="23.0" layoutY="264.0" prefHeight="27.0" prefWidth="562.0" promptText="Enter the username" />
+      <PasswordField fx:id="txtPasswordHide" layoutX="22.0" layoutY="316.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the password" />
+      <ImageView fx:id="eye_hide_password" fitHeight="25.0" fitWidth="51.0" layoutX="531.0" layoutY="318.0">
+         <image>
+            <Image url="@../assets/Bliend_eye.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtPasswordShow" layoutX="23.0" layoutY="317.0" prefHeight="28.0" prefWidth="562.0" promptText="Enter the password" />
+      <ImageView fx:id="eye_show_password" fitHeight="25.0" fitWidth="51.0" layoutX="532.0" layoutY="318.0">
+         <image>
+            <Image url="@../assets/eye.jpg" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="cmbUserRole" layoutX="23.0" layoutY="370.0" prefHeight="28.0" prefWidth="562.0" promptText="Select User Role" />
+      <ComboBox fx:id="cmbUserLocation" layoutX="23.0" layoutY="423.0" prefHeight="28.0" prefWidth="562.0" />
+      <Pane layoutX="20.0" layoutY="468.0" prefHeight="250.0" prefWidth="579.0">
          <children>
-            <Button defaultButton="true" layoutX="1.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
+            <Button fx:id="save" defaultButton="true" layoutX="11.0" layoutY="9.0" mnemonicParsing="false" onAction="#btnSave_OnAction" text="Save">
                <font>
-                  <Font name="System Bold" size="14.0" />
+                  <Font name="System Bold" size="11.0" />
                </font>
             </Button>
-            <TextField layoutY="38.0" prefHeight="28.0" prefWidth="562.0" promptText="Filter by Username or Name" />
-            <TableView layoutX="-1.0" layoutY="78.0" prefHeight="166.0" prefWidth="562.0">
+            <TextField fx:id="search_username" layoutX="11.0" layoutY="37.0" prefHeight="27.0" prefWidth="555.0" promptText="Filter by Username or Name" />
+            <TableView fx:id="tblUserDetails" layoutX="12.0" layoutY="63.0" prefHeight="174.0" prefWidth="555.0">
               <columns>
-                <TableColumn fx:id="username" prefWidth="93.39996337890625" text="Username" />
-                <TableColumn fx:id="name" prefWidth="166.20001220703125" text="Name" />
-                  <TableColumn fx:id="role" prefWidth="111.79998779296875" text="Role" />
-                  <TableColumn prefWidth="118.39996337890625" text="Remove" />
+                <TableColumn fx:id="user_id" prefWidth="67.0" text="User ID" />
+                <TableColumn fx:id="username" prefWidth="103.20001220703125" text="User Name" />
+                  <TableColumn fx:id="name" prefWidth="99.199951171875" text="Name" />
+                  <TableColumn fx:id="role" prefWidth="88.4000244140625" text="Role" />
+                  <TableColumn prefWidth="67.800048828125" text="Remove" />
               </columns>
             </TableView>
          </children>
       </Pane>
+      <Label fx:id="id" layoutX="32.0" layoutY="76.0" text="UserID">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_name" layoutX="20.0" layoutY="134.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_contact_no" layoutX="21.0" layoutY="187.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_email" layoutX="21.0" layoutY="239.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_user_location" layoutX="23.0" layoutY="451.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_user_role" layoutX="23.0" layoutY="398.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_password" layoutX="22.0" layoutY="345.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_userName" layoutX="22.0" layoutY="291.0" prefHeight="24.0" prefWidth="562.0" />
+      <Label fx:id="lbl_id" layoutX="101.0" layoutY="74.0" prefHeight="24.0" prefWidth="166.0" />
    </children>
 </AnchorPane>
