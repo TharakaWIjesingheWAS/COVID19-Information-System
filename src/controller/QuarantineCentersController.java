@@ -247,7 +247,7 @@ public class QuarantineCentersController {
                     preparedStatement.setObject(7,qc_contact_no_1);
                     preparedStatement.setObject(8,qc_contact_no_2);
                     preparedStatement.setObject(9,qc_capacity);
-                    preparedStatement.setObject(10,lstCenters.getSelectionModel().getSelectedItems());
+                    preparedStatement.setObject(10,lstCenters.getSelectionModel().getSelectedItems());//getid 1ka gnna one();
 
                     int affectedRows = preparedStatement.executeUpdate();
                     if (affectedRows > 0){

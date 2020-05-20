@@ -2,39 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65571c04-993b-43ee-915f-2cb8d307d418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tharaka.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/DashBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/DashBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/GlobalCOVID19Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageHospitalsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/ManageUsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Covid19/controller/QuarantineCentersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/controller/QuarantineCentersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Covid19/dbconnection/DbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/dbconnection/DbConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Covid19/util/HospitalTM.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/Dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/GlobalCOVID19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/GlobalCOVID19.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/ManageHospitals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/ManageHospitals.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/ManageUsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/ManageUsers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Covid19/view/QuarantineCenters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Covid19/view/QuarantineCenters.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DashBoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/GlobalCOVID19Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GlobalCOVID19Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ManageHospitalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageHospitalsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ManageUsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ManageUsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/QuarantineCentersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/QuarantineCentersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbconnection/DbConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/HospitalTM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/HospitalTM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/GlobalCOVID19.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GlobalCOVID19.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/ManageHospitals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManageHospitals.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/ManageUsers.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ManageUsers.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/QuarantineCenters.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/QuarantineCenters.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,22 +62,15 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="covid19: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Covid19@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="covid19: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="quarantine_center: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -171,6 +158,28 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Covid19@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Covid19@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7706ca0c" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -197,6 +206,12 @@
       <workItem from="1589887011074" duration="7000" />
       <workItem from="1589887170051" duration="40000" />
       <workItem from="1589905231270" duration="10039000" />
+      <workItem from="1589916055438" duration="1390000" />
+      <workItem from="1589922519228" duration="3358000" />
+      <workItem from="1589926052405" duration="1094000" />
+      <workItem from="1589959891111" duration="11019000" />
+      <workItem from="1589975802876" duration="17837000" />
+      <workItem from="1590004759999" duration="3600000" />
     </task>
     <servers />
   </component>
@@ -250,28 +265,28 @@
     </state>
     <state x="475" y="155" key="FileChooserDialogImpl/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589643141692" />
     <state x="475" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589530418223" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1589916029331">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1590008363079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1590008363079" />
     <state width="1493" height="93" key="GridCell.Tab.0.bottom/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
     <state width="1493" height="6" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589877423116" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1589916029331">
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1590008363079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1590008363079" />
     <state width="1493" height="93" key="GridCell.Tab.0.center/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
     <state width="1493" height="6" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589877423115" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1589916029331">
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1590008363079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1590008363079" />
     <state width="1493" height="93" key="GridCell.Tab.0.left/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995261" />
     <state width="1493" height="6" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589877423114" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1589916029331">
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1590008363079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916029331" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1590008363079" />
     <state width="1493" height="93" key="GridCell.Tab.0.right/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589781995262" />
     <state width="1493" height="6" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589877423116" />
     <state x="250" y="0" key="SettingsEditor" timestamp="1589886919778">
@@ -287,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="479" y="56" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589749458140" />
-    <state x="467" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589916055675">
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog" timestamp="1589922519982">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589916055675" />
+    <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589922519982" />
     <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589780327453" />
     <state x="467" y="239" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589874920917" />
     <state x="541" y="117" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589753012000">
@@ -303,22 +318,23 @@
     <state x="0" y="88" width="1505" height="695" maximized="true" key="dock-window-1/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589887203991" />
     <state x="669" y="34" width="879" height="561" key="dock-window-1/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589793830401" />
     <state x="663" y="34" width="879" height="561" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1589818006304" />
-    <state x="203" y="35" key="new project wizard" timestamp="1589361042440">
+    <state x="203" y="35" key="new project wizard" timestamp="1589972362257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="203" y="35" key="new project wizard/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589361042440" />
-    <state x="477" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1589829523891">
+    <state x="203" y="35" key="new project wizard/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589972362257" />
+    <state x="477" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1589980619545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589377734107" />
+    <state x="477" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589980619545" />
     <state x="477" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1589829523891" />
     <state x="840" y="408" key="save.file.as.template.dialog" timestamp="1589375035429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="840" y="408" key="save.file.as.template.dialog/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589375035429" />
-    <state x="432" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1589831602234">
+    <state x="432" y="144" width="672" height="678" key="search.everywhere.popup" timestamp="1589984444679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="432" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1420.2160.1000.504@0.0.1536.824" timestamp="1589984444679" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1421.2160.1000.504@0.0.1536.824" timestamp="1589716021791" />
     <state x="432" y="144" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589831602234" />
   </component>

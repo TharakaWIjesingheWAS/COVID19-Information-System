@@ -9,11 +9,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root" opacity="0.74" prefHeight="503.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GlobalCOVID19Controller">
+<AnchorPane fx:id="root" prefHeight="504.0" prefWidth="752.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GlobalCOVID19Controller">
    <children>
-      <Button layoutX="10.0" layoutY="11.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="50.0" prefWidth="102.0" text="Home" textFill="#2439aa">
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnHome_OnAction" prefHeight="50.0" prefWidth="100.0" text="Home" textFill="#2439aa">
          <graphic>
-            <ImageView fx:id="home1" fitHeight="49.0" fitWidth="49.0">
+            <ImageView fitHeight="48.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../assets/imgbin-home-page-computer-icons-website-world-wide-web-blue-home-page-icon-white-house-illustration-3uXXsAG569C90TEjGWE75FFmx.jpg" />
                </image>
@@ -23,54 +23,62 @@
             <Font name="System Bold" size="11.0" />
          </font>
       </Button>
-      <Label alignment="TOP_CENTER" layoutX="282.0" layoutY="11.0" text="Global COVID 19" textAlignment="CENTER" textFill="#d40808">
+      <Label layoutX="290.0" layoutY="15.0" text="Global COVID 19" textAlignment="CENTER" textFill="#d40808">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="51.0" layoutY="88.0" text="Last Updated">
+      <Label layoutX="55.0" layoutY="84.0" text="Last Updated">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="234.0" layoutY="88.0" text="Confirmed Cases">
+      <Label layoutX="227.0" layoutY="84.0" text="Confirmed Cases">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="462.0" layoutY="88.0" text="Recovered">
+      <Label layoutX="454.0" layoutY="84.0" text="Recovered">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="625.0" layoutY="88.0" text="Deaths">
+      <Label layoutX="624.0" layoutY="84.0" text="Deaths">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <DatePicker fx:id="txtDate" layoutX="38.0" layoutY="235.0" prefHeight="30.0" prefWidth="174.0" promptText="Date" />
-      <TextField fx:id="confirmed_cases" layoutX="39.0" layoutY="285.0" prefHeight="30.0" prefWidth="149.0" />
-      <TextField fx:id="recovered_cases" layoutX="40.0" layoutY="331.0" prefHeight="31.0" prefWidth="149.0" />
-      <TextField fx:id="deaths" layoutX="40.0" layoutY="379.0" prefHeight="30.0" prefWidth="149.0" />
-      <Button layoutX="40.0" layoutY="429.0" mnemonicParsing="false" onAction="#btnUpdate_OnAction" text="Update">
+      <DatePicker fx:id="txtDate" layoutX="31.0" layoutY="246.0" onAction="#date_OnAction" prefHeight="30.0" prefWidth="170.0" promptText="Date" />
+      <TextField fx:id="confirmed_cases" layoutX="32.0" layoutY="287.0" prefHeight="30.0" prefWidth="147.0" />
+      <TextField fx:id="recovered_cases" layoutX="33.0" layoutY="328.0" prefHeight="30.0" prefWidth="147.0" />
+      <TextField fx:id="deaths" layoutX="33.0" layoutY="368.0" prefHeight="30.0" prefWidth="147.0" />
+      <Button fx:id="update" layoutX="34.0" layoutY="417.0" mnemonicParsing="false" onAction="#btnUpdate_OnAction" prefHeight="24.0" prefWidth="135.0" text="Update">
          <font>
             <Font size="11.0" />
          </font>
       </Button>
-      <Label layoutX="226.0" layoutY="290.0" text="Enter the number of confirmed cases">
+      <Label layoutX="256.0" layoutY="290.0" prefHeight="24.0" prefWidth="252.0" text="Enter the number of confirmed cases">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
-      <Label layoutX="227.0" layoutY="336.0" text="Enter the number of recovered cases">
+      <Label layoutX="256.0" layoutY="331.0" prefHeight="24.0" prefWidth="252.0" text="Enter the number of recovered cases">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
-      <Label layoutX="228.0" layoutY="384.0" text="Enter the number of deaths">
+      <Label layoutX="258.0" layoutY="371.0" prefHeight="24.0" prefWidth="252.0" text="Enter the number of deaths">
          <font>
             <Font size="15.0" />
          </font>
       </Label>
+      <Label fx:id="lbl_update_date" layoutX="53.0" layoutY="128.0" prefHeight="30.0" prefWidth="125.0" />
+      <Label fx:id="lbl_confirmed_cases" layoutX="229.0" layoutY="128.0" prefHeight="30.0" prefWidth="157.0" />
+      <Label fx:id="lbl_recovered" layoutX="441.0" layoutY="128.0" prefHeight="30.0" prefWidth="135.0" />
+      <Label fx:id="lbl_deaths" layoutX="610.0" layoutY="128.0" prefHeight="30.0" prefWidth="125.0" />
+      <Label fx:id="lbl_confirmed_error" layoutX="576.0" layoutY="294.0" prefHeight="24.0" prefWidth="157.0" />
+      <Label fx:id="lbl_recovered_error" layoutX="576.0" layoutY="331.0" prefHeight="24.0" prefWidth="157.0" />
+      <Label fx:id="lbl_death_error" layoutX="576.0" layoutY="371.0" prefHeight="24.0" prefWidth="157.0" />
+      <Label fx:id="lbl_date_error" layoutX="576.0" layoutY="249.0" prefHeight="24.0" prefWidth="157.0" />
    </children>
 </AnchorPane>

@@ -2,7 +2,6 @@ package controller;
 
 import Model.HospitalTM;
 import dbconnection.Dbconnection;
-import javafx.animation.FadeTransition;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -61,13 +60,6 @@ public class ManageHospitalsController {
 
 
     public  void initialize(){
-/*        FadeTransition fade = new FadeTransition(Duration.seconds(1),root);
-        fade.setFromValue(0);
-        fade.setToValue(1);
-        fade.setCycleCount(1);
-
-        fade.play();
-*/
         Platform.runLater(() ->
             {
                 add_new_hospital.requestFocus();
